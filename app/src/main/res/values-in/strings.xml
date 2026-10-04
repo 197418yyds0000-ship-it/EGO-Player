@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">PixelPlayer</string>
+    <string name="app_tagline">Pemutar Musik</string>
+    <string name="app_name_change_title">Perubahan Nama Aplikasi</string>
+    <string name="app_name_change_message">Kami telah mengubah nama aplikasi kami dari PixelPlay menjadi PixelPlayer karena masalah terkait merek dagang. Teruslah mendengarkan!</string>
+    <string name="app_name_change_do_not_show_again">Jangan tampilkan lagi</string>
+
+    <!-- Navigation Bar Labels -->
+    <string name="nav_bar_home">Beranda</string>
+    <string name="nav_bar_search">Cari</string>
+    <string name="nav_bar_library">Pustaka</string>
+
+    <!-- All files access dialog-->
+    <string name="all_files_access_title">Izin Khusus Diperlukan</string>
+    <string name="all_files_access_description">Untuk mengedit metadata lagu (file .mp3), PixelPlayer memerlukan akses khusus ke semua file. Ini memungkinkan kami untuk mengubah tag lagu secara langsung. Mohon berikan izin ini di layar berikutnya untuk mengaktifkan pengeditan metadata.</string>
+    <string name="grant_permission_button">Berikan Izin</string>
+
+    <!-- External Player -->
+    <string name="external_queue_label">Putar cepat</string>
+    <string name="external_playback_error">Tidak dapat membuka file audio tersebut.</string>
+    <string name="external_action_open_full_player">Buka pemutar penuh</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_shuffle_short">Acak</string>
+    <string name="shortcut_shuffle_long">Acak semua lagu</string>
+    <string name="tile_shuffle_all">Acak Semua</string>
+    <string name="tile_last_playlist">Playlist Terakhir</string>
+    <string name="tile_last_playlist_unavailable">Tidak ada playlist yang tersedia untuk dibuka</string>
+
+    <!-- Playstore Announcement -->
+    <string name="playstore_dialog_action_open">Buka Play Store</string>
+    <string name="playstore_dialog_action_continue_beta">Lanjutkan beta</string>
+    <string name="playstore_dialog_link_pending">Tautan Play Store akan diaktifkan dari konfigurasi GitHub.</string>
+    <string name="playstore_dialog_title">PixelPlayer kini tersedia di Google Play</string>
+    <string name="playstore_dialog_body">Gunakan saluran stabil di Google Play untuk pembaruan rilis sementara kami tetap mengaktifkan build beta.</string>
+    <string name="playstore_dialog_app_name">PixelPlayer</string>
+    <string name="playstore_dialog_release_announcement">Pengumuman rilis</string>
+    <string name="playstore_dialog_coming_soon">Segera hadir</string>
+
+    <!-- Brick breaker -->
+    <string name="easter_egg_thank_you">Terima kasih telah menggunakan PixelPlayer!</string>
+    <string name="brick_high">TERTINGGI %1$d</string>
+    <string name="brick_cd_close">Tutup</string>
+    <string name="brick_stat_score">SKOR</string>
+    <string name="brick_stat_lvl">LEVEL %1$d</string>
+    <string name="brick_stat_lives">NYAWA</string>
+    <string name="brick_level_complete">LEVEL SELESAI!</string>
+    <string name="brick_game_over">PERMAINAN BERAKHIR</string>
+    <string name="brick_score_line">Skor: %1$d</string>
+    <string name="brick_try_again">Coba Lagi?</string>
+    <string name="brick_next_level">Level Berikutnya</string>
+    <string name="brick_restart">Mulai Ulang Game</string>
+    <string name="brick_tap_relaunch">KETUK UNTUK MEMULAI KEMBALI</string>
+    <string name="brick_play_random">Putar Musik Acak</string>
+    <string name="brick_title">Brick Breaker</string>
+    <string name="brick_high_score">SKOR TERTINGGI  %1$d</string>
+    <string name="brick_play">Mainkan</string>
+    <string name="brick_drag_paddle">Seret untuk menggerakkan pemukul</string>
+
+    <!-- Music Service -->
+    <string name="close_notification_player">Tutup pemutar</string>
+    <string name="service_processing_action">Memproses tindakan pemutaran…</string>
+    <string name="player_playback_error">Kesalahan pemutaran: %1$s</string>
+
+    <!-- Common Text & Labels -->
+    <string name="common_back">Kembali</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_dismiss">Tutup</string>
+    <string name="common_error">Kesalahan</string>
+    <string name="common_search">Cari</string>
+    <string name="common_clear_search">Bersihkan pencarian</string>
+    <string name="common_all">Semua</string>
+    <string name="common_confirm">Konfirmasi</string>
+    <string name="common_saved">Disimpan!</string>
+    <string name="common_selected">Terpilih</string>
+    <string name="common_percentage_text">%1$d%%</string>
+    <string name="common_artist">Artis</string>
+    <string name="common_select_all">Pilih Semua</string>
+    <string name="common_clear">Bersihkan</string>
+    <string name="common_error_unknown">Kesalahan tidak dikenal</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">Simpan</string>
+    <string name="common_done">Selesai</string>
+    <string name="common_reset">Reset</string>
+    <string name="common_apply">Terapkan</string>
+    <string name="common_shuffle">Acak</string>
+    <string name="common_copy">Salin</string>
+    <string name="common_share">Bagikan</string>
+    <string name="common_undo">Urungkan</string>
+    <string name="common_import">Impor</string>
+    <string name="common_delete">Hapus</string>
+    <string name="common_export">Ekspor</string>
+    <string name="common_merge">Gabungkan</string>
+    <string name="common_rename">Ubah Nama</string>
+    <string name="common_create">Buat</string>
+    <string name="common_lyrics">Lirik</string>
+    <string name="common_settings">Pengaturan</string>
+    <string name="common_album_art">Sampul Album</string>
+    <string name="common_playlist">Daftar Putar</string>
+    <string name="common_unknown_track">Trek tidak dikenal</string>
+    <string name="common_unknown_artist">Artis tidak dikenal</string>
+    <string name="common_unknown_album">Album tidak dikenal</string>
+    <string name="common_close">Tutup</string>
+    <string name="common_add">Tambah</string>
+    <string name="common_remove">Hapus</string>
+    <string name="common_play">Putar</string>
+    <string name="common_previous_track">Trek sebelumnya</string>
+    <string name="common_next_track">Trek berikutnya</string>
+    <string name="common_favorite">Favorit</string>
+    <string name="common_pause">Jeda</string>
+    <string name="common_repeat">Ulangi</string>
+    <string name="common_options">Opsi</string>
+    <string name="common_shuffle_play">Putar Acak</string>
+    <string name="common_more_options_for">Opsi lainnya untuk %1$s</string>
+    <string name="common_expand_menu">Perluas menu</string>
+    <string name="common_next">Berikutnya</string>
+    <string name="common_finish">Selesai</string>
+    <string name="common_reset_defaults">Reset ke default</string>
+    <string name="common_export_all">Ekspor semua</string>
+    <string name="common_merge_all">Gabungkan semua</string>
+    <string name="common_share_all">Bagikan semua</string>
+    <string name="common_play_album">Putar album</string>
+    <string name="common_shuffle_play_album">Putar acak album</string>
+    <string name="common_album_art_for_title">Sampul album untuk %1$s</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PixelPlayer</string>
+    <string name="app_tagline">Музыкальный плеер</string>
+    <string name="app_name_change_title">Изменение названия</string>
+    <string name="app_name_change_message">Мы изменили название приложения с PixelPlay на PixelPlayer из-за проблем с товарным знаком. Продолжайте слушать музыку!</string>
+    <string name="app_name_change_do_not_show_again">Больше не показывать</string>
+
+    <!-- Navigation Bar Labels -->
+    <string name="nav_bar_home">Главная</string>
+    <string name="nav_bar_search">Поиск</string>
+    <string name="nav_bar_library">Библиотека</string>
+
+    <!-- All files access dialog-->
+    <string name="all_files_access_title">Требуется специальное разрешение</string>
+    <string name="all_files_access_description">Для редактирования метаданных песен (.mp3) PixelPlayer нужен доступ ко всем файлам. Это позволит изменять теги треков напрямую. Предоставьте разрешение на следующем экране, чтобы включить редактирование метаданных.</string>
+    <string name="grant_permission_button">Предоставить доступ</string>
+
+    <!-- External Player -->
+    <string name="external_queue_label">Быстрое воспроизведение</string>
+    <string name="external_playback_error">Не удалось открыть аудиофайл.</string>
+    <string name="external_action_open_full_player">Открыть полный плеер</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_shuffle_short">Перемешать</string>
+    <string name="shortcut_shuffle_long">Перемешать все песни</string>
+    <string name="tile_shuffle_all">Перемешать всё</string>
+    <string name="tile_last_playlist">Последний плейлист</string>
+    <string name="tile_last_playlist_unavailable">Нет доступного плейлиста</string>
+
+    <!-- Playstore Announcement -->
+    <string name="playstore_dialog_action_open">Открыть Google Play</string>
+    <string name="playstore_dialog_action_continue_beta">Продолжить бета-тест</string>
+    <string name="playstore_dialog_link_pending">Ссылка на Google Play будет включена через конфигурацию GitHub.</string>
+    <string name="playstore_dialog_title">PixelPlayer теперь доступен в Google Play</string>
+    <string name="playstore_dialog_body">Используйте стабильную версию в Google Play для получения обновлений, пока бета-сборки остаются активными.</string>
+    <string name="playstore_dialog_app_name">PixelPlayer</string>
+    <string name="playstore_dialog_release_announcement">Анонс релиза</string>
+    <string name="playstore_dialog_coming_soon">Скоро</string>
+
+    <!-- Brick breaker -->
+    <string name="easter_egg_thank_you">Спасибо за использование PixelPlayer!</string>
+    <string name="brick_high">РЕК %1$d</string>
+    <string name="brick_cd_close">Закрыть</string>
+    <string name="brick_stat_score">ОЧКИ</string>
+    <string name="brick_stat_lvl">УР. %1$d</string>
+    <string name="brick_stat_lives">ЖИЗНИ</string>
+    <string name="brick_level_complete">УРОВЕНЬ ПРОЙДЕН!</string>
+    <string name="brick_game_over">ИГРА ОКОНЧЕНА</string>
+    <string name="brick_score_line">Очки: %1$d</string>
+    <string name="brick_try_again">Попробовать снова?</string>
+    <string name="brick_next_level">Следующий уровень</string>
+    <string name="brick_restart">Начать заново</string>
+    <string name="brick_tap_relaunch">НАЖМИТЕ ДЛЯ ПЕРЕЗАПУСКА</string>
+    <string name="brick_play_random">Случайная музыка</string>
+    <string name="brick_title">Brick Breaker</string>
+    <string name="brick_high_score">РЕКОРД %1$d</string>
+    <string name="brick_play">Играть</string>
+    <string name="brick_drag_paddle">Перетаскивайте платформу</string>
+
+    <!-- Music Service -->
+    <string name="close_notification_player">Закрыть плеер</string>
+    <string name="service_processing_action">Обработка действия воспроизведения…</string>
+    <string name="player_playback_error">Ошибка воспроизведения: %1$s</string>
+
+    <!-- Common Text & Labels -->
+    <string name="common_back">Назад</string>
+    <string name="common_ok">ОК</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_dismiss">Закрыть</string>
+    <string name="common_error">Ошибка</string>
+    <string name="common_search">Поиск</string>
+    <string name="common_clear_search">Очистить поиск</string>
+    <string name="common_all">Все</string>
+    <string name="common_confirm">Подтвердить</string>
+    <string name="common_saved">Сохранено!</string>
+    <string name="common_selected">Выбрано</string>
+    <string name="common_percentage_text">%1$d%%</string>
+    <string name="common_artist">Исполнитель</string>
+    <string name="common_select_all">Выбрать всё</string>
+    <string name="common_clear">Очистить</string>
+    <string name="common_error_unknown">Неизвестная ошибка</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">Сохранить</string>
+    <string name="common_done">Готово</string>
+    <string name="common_reset">Сбросить</string>
+    <string name="common_apply">Применить</string>
+    <string name="common_shuffle">Перемешать</string>
+    <string name="common_copy">Копировать</string>
+    <string name="common_share">Поделиться</string>
+    <string name="common_undo">Отменить</string>
+    <string name="common_import">Импорт</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_export">Экспорт</string>
+    <string name="common_merge">Объединить</string>
+    <string name="common_rename">Переименовать</string>
+    <string name="common_create">Создать</string>
+    <string name="common_lyrics">Текст песни</string>
+    <string name="common_settings">Настройки</string>
+    <string name="common_album_art">Обложка альбома</string>
+    <string name="common_playlist">Плейлист</string>
+    <string name="common_unknown_track">Неизвестный трек</string>
+    <string name="common_unknown_artist">Неизвестный исполнитель</string>
+    <string name="common_unknown_album">Неизвестный альбом</string>
+    <string name="common_close">Закрыть</string>
+    <string name="common_add">Добавить</string>
+    <string name="common_remove">Удалить</string>
+    <string name="common_play">Воспроизвести</string>
+    <string name="common_previous_track">Предыдущий трек</string>
+    <string name="common_next_track">Следующий трек</string>
+    <string name="common_favorite">Избранное</string>
+    <string name="common_pause">Пауза</string>
+    <string name="common_repeat">Повтор</string>
+    <string name="common_options">Параметры</string>
+    <string name="common_shuffle_play">Случайное воспроизведение</string>
+    <string name="common_more_options_for">Дополнительные параметры: %1$s</string>
+    <string name="common_expand_menu">Развернуть меню</string>
+    <string name="common_next">Далее</string>
+    <string name="common_finish">Готово</string>
+    <string name="common_reset_defaults">Сбросить настройки</string>
+    <string name="common_export_all">Экспортировать всё</string>
+    <string name="common_merge_all">Объединить всё</string>
+    <string name="common_share_all">Поделиться всем</string>
+    <string name="common_play_album">Воспроизвести альбом</string>
+    <string name="common_shuffle_play_album">Перемешать альбом</string>
+    <string name="common_album_art_for_title">Обложка альбома: %1$s</string>
+</resources>

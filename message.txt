@@ -1,0 +1,22 @@
+Pixel Player Android 10 v5 - MediaStore / Artwork / Metadata Fix
+
+Based on v4-StorageFix that successfully launches on Android 10/API 29.
+
+Changes in v5:
+- Android 10 requests READ_EXTERNAL_STORAGE + WRITE_EXTERNAL_STORAGE.
+- Added requestLegacyExternalStorage=true for the Android 10 compatibility path.
+- Bumped local artwork cache version from v4 to v5 so stale no-art markers are ignored.
+- Android 10 song deletion no longer rejects files solely because File.canWrite() is false; MediaStore deletion is attempted first, followed by a direct-file fallback.
+- Existing Android 11+ MediaStore permission flows are retained.
+
+Build note:
+- Keep android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2 in gradle.properties for Termux/ARM64 builds.
+
+
+PixelPlayer Android 10 v6 - Fine Speed/Pitch HiFi
+- Added 0.50x-2.00x playback speed with 0.01 precision.
+- Added independent pitch control from -12.0 to +12.0 semitones (0.1 precision).
+- Long-press the album cover to open a lightweight Material 3 floating panel.
+- No blur/RenderEffect is used by the new panel.
+- Hi-Fi Float output is automatically suspended only while speed/pitch differs from normal,
+  so Media3 PlaybackParameters remain effective; returning to 1.00x / 0 semitones restores Hi-Fi Float output.

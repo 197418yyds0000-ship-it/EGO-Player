@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_error_genre_id_missing">Fehler: Genre-ID fehlt</string>
+
+    <!-- SetupScreen -->
+    <string name="setup_lets_go">Los geht\'s!</string>
+    <string name="setup_step_format">Schritt %1$d von %2$d</string>
+    <string name="setup_toast_grant_permission_first">Bitte zuerst die erforderliche Berechtigung erteilen.</string>
+    <string name="setup_toast_grant_all_permissions">Bitte alle erforderlichen Berechtigungen erteilen.</string>
+    <string name="setup_welcome_prefix">Willkommen bei </string>
+    <string name="setup_beta_symbol">β</string>
+    <string name="setup_beta_label">Beta</string>
+    <string name="setup_intro_body">Richten wir alles ein.</string>
+    <string name="setup_permission_media_title">Medienberechtigung</string>
+    <string name="setup_permission_media_description">PixelPlayer braucht Zugriff auf Audiodateien, um die Bibliothek aufzubauen.</string>
+    <string name="setup_permission_granted">Berechtigung erteilt</string>
+    <string name="setup_grant_media_permission">Medienberechtigung erteilen</string>
+    <string name="setup_permission_notifications_title">Benachrichtigungen</string>
+    <string name="setup_permission_notifications_description">Musik vom Sperrbildschirm und der Benachrichtigungsleiste steuern.</string>
+    <string name="setup_enable_notifications">Benachrichtigungen aktivieren</string>
+    <string name="setup_backup_have_title">Hast du ein Backup?</string>
+    <string name="setup_backup_have_description">Backup vorhanden? Jetzt wiederherstellen und den Großteil des Setups überspringen.</string>
+    <string name="setup_import_backup">Backup importieren</string>
+    <string name="setup_inspecting_backup">Backup wird geprüft</string>
+    <string name="setup_checking_backup">Backup wird geprüft…</string>
+    <string name="setup_restoring_backup">Backup wird wiederhergestellt</string>
+    <string name="setup_skip_for_now">Vorerst überspringen</string>
+    <string name="setup_restore_backup_title">Backup wiederherstellen</string>
+    <string name="setup_restore_backup_subtitle">Vor dem Abschluss prüfen, was importiert werden soll.</string>
+    <string name="setup_modules_selected_format">%1$d von %2$d Modulen ausgewählt</string>
+    <string name="setup_backup_created_format">Erstellt %1$s</string>
+    <string name="setup_backup_from_version">Backup von %1$s</string>
+    <string name="setup_backup_unknown_version">Unbekannte Version</string>
+    <string name="setup_restore_selected">Ausgewählte wiederherstellen</string>
+    <string name="setup_restoring">Wiederherstellen</string>
+    <string name="setup_excluded_folders_title">Ausgeschlossene Ordner</string>
+    <string name="setup_excluded_folders_description">Alle Ordner werden gescannt. Hier Ordner ausschließen, die ignoriert werden sollen.</string>
+    <string name="setup_choose_folders_ignore">Zu ignorierende Ordner wählen</string>
+    <string name="setup_toast_grant_storage_first">Zuerst Speicherberechtigung erteilen</string>
+    <string name="setup_theme_title">App-Design</string>
+    <string name="setup_theme_subtitle">Design wählen, bevor es losgeht.</string>
+    <string name="setup_theme_dark_title">Dunkel</string>
+    <string name="setup_theme_dark_description">Das Standard-Dunkeldesign von PixelPlayer (Material 3 Expressiv).</string>
+    <string name="setup_theme_light_title">Hell</string>
+    <string name="setup_theme_light_description">Das helle Material 3 Expressiv-Design.</string>
+    <string name="setup_theme_follow_title">System folgen</string>
+    <string name="setup_theme_follow_description">Passt sich dem aktuellen System-Design an.</string>
+    <string name="setup_recommended">Empfohlen</string>
+    <string name="setup_theme_footer">Änderbar unter Einstellungen &gt; Darstellung &gt; App-Design.</string>
+    <string name="setup_library_layout_title">Bibliotheks-Layout</string>
+    <string name="setup_library_layout_subtitle">Wie möchtest du durch die Bibliothek navigieren?</string>
+    <string name="setup_preview_songs_label">Songs</string>
+    <string name="setup_compact_mode">Kompaktmodus</string>
+    <string name="setup_compact_mode_pill_hint">Minimale Pill-Navigation aktiv</string>
+    <string name="setup_compact_mode_tab_hint">Standard-Tab-Leiste aktiv</string>
+    <string name="setup_tab_songs">SONGS</string>
+    <string name="setup_tab_albums">ALBEN</string>
+    <string name="setup_tab_artists">KÜNSTLER</string>
+    <string name="setup_library_layout_footer">Änderbar unter Einstellungen &gt; Darstellung &gt; Bibliotheks-Navigation.</string>
+    <string name="setup_app_navigation_title">App-Navigation</string>
+    <string name="setup_app_navigation_subtitle">Stil der Navigationsleiste wählen</string>
+    <string name="setup_navbar_default_style">Standard</string>
+    <string name="setup_nav_floating_pill_description">Schwebende Pill mit abgerundeten Ecken</string>
+    <string name="setup_nav_full_width_description">Standard-Leiste in voller Breite</string>
+    <string name="setup_customize_corner_radius">Eckenradius anpassen</string>
+    <string name="setup_navbar_footer">Änderbar unter Einstellungen &gt; Darstellung &gt; NavBar-Stil.</string>
+    <string name="setup_permission_alarms_title">Alarme &amp; Erinnerungen</string>
+    <string name="setup_permission_alarms_description">Empfohlen, wenn du den Sleep Timer nutzt – damit stoppt PixelPlayer pünktlich.</string>
+    <string name="setup_grant_permission_generic">Berechtigung erteilen</string>
+    <string name="setup_battery_optimization_title">Akku-Optimierung</string>
+    <string name="setup_battery_optimization_description">Manche Geräte beenden Apps im Hintergrund aggressiv. Akku-Optimierung für PixelPlayer deaktivieren, damit die Wiedergabe nicht unterbrochen wird.</string>
+    <string name="setup_disable_battery_optimization">Optimierung deaktivieren</string>
+    <string name="setup_all_set_title">Alles bereit!</string>
+    <string name="setup_all_set_body">Du kannst jetzt deine Musik genießen.</string>
+
+    <!-- SearchScreen -->
+    <string name="search_placeholder">Suchen…</string>
+    <string name="search_cd_search_icon">Suchen</string>
+    <string name="search_cd_clear_search_query">Suche löschen</string>
+    <string name="search_recent_searches">Zuletzt gesucht</string>
+    <string name="search_action_clear_all">Alles löschen</string>
+    <string name="search_cd_search_history_icon">Verlauf</string>
+    <string name="search_cd_delete_search_history_item">Suchverlauf-Eintrag löschen</string>
+    <string name="search_cd_no_results">Keine Ergebnisse</string>
+    <string name="search_no_results_for_query">Keine Ergebnisse für \"%1$s\"</string>
+    <string name="search_nothing_found">Nichts gefunden</string>
+    <string name="search_try_different_or_filters">Anderen Suchbegriff versuchen oder Filter prüfen.</string>
+    <string name="search_no_results_found">Keine Ergebnisse gefunden.</string>
+    <string name="browse_by_genre">Nach Genre stöbern</string>
+    <string name="no_genres_available">Keine Genres verfügbar.</string>
+
+    <!-- ArtistDetailScreen -->
+    <string name="artist_cd_play_title">%1$s abspielen</string>
+    <string name="artist_cd_collapse_title">%1$s einklappen</string>
+    <string name="artist_cd_expand_title">%1$s ausklappen</string>
+    <string name="artist_cd_edit_image">Künstlerbild bearbeiten</string>
+    <string name="artist_action_change_photo">Foto ändern</string>
+    <string name="artist_action_reset_to_default">Zurücksetzen</string>
+    <string name="artist_cd_shuffle_play">Künstler mischen</string>
+
+    <!-- AlbumDetailScreen -->
+    <string name="album_disc_number_header">Disc %d</string>
+    <string name="album_cover_for">Cover von %1$s</string>
+    <string name="album_detail_meta_line">%1$s · %2$s</string>
+
+    <!-- PlaylistDetailScreen -->
+    <string name="playlist_not_found">Playlist nicht gefunden.</string>
+    <string name="playlist_empty_title">Diese Playlist ist leer.</string>
+    <string name="playlist_empty_add_hint">\"Songs hinzufügen\" antippen, um zu beginnen.</string>
+    <string name="playlist_empty_folder_label">Dieser Ordner enthält keine Songs.</string>
+    <string name="playlist_sort_songs_title">Songs sortieren</string>
+    <string name="playlist_more_options_title">Weitere Optionen</string>
+    <string name="playlist_options_title">Playlist-Optionen</string>
+    <string name="playlist_action_edit_playlist">Playlist bearbeiten</string>
+    <string name="playlist_action_delete_playlist">Playlist loeschen</string>
+    <string name="playlist_dialog_delete_title">Playlist löschen?</string>
+    <string name="playlist_dialog_delete_body">Diese Playlist wirklich löschen?</string>
+    <string name="playlist_action_set_default_transition">Standardübergang festlegen</string>
+    <string name="playlist_action_export_playlist">Playlist exportieren</string>
+    <string name="playlist_song_duration_line">%1$s • %2$s</string>
+    <string name="playlist_action_play_it">Abspielen</string>
+    <string name="playlist_action_add_songs">Hinzufügen</string>
+    <string name="playlist_cd_add_songs">Songs hinzufügen</string>
+    <string name="playlist_action_remove_songs">Entfernen</string>
+    <string name="playlist_cd_remove_songs">Songs entfernen</string>
+    <string name="playlist_action_reorder_songs">Sortieren</string>
+    <string name="playlist_cd_reorder_songs">Songs neu anordnen</string>
+
+    <!-- EditTransitionScreen -->
+    <string name="transition_title_global">Globale Übergänge</string>
+    <string name="transition_title_playlist_rules">Playlist-Regeln</string>
+    <string name="transition_intro_global">Gilt für alle Quellen – sofern nicht von einer Playlist überschrieben.</string>
+    <string name="transition_intro_playlist">Standardverhalten für diese Playlist festlegen</string>
+    <string name="transition_active_status">Aktiver Status</string>
+    <string name="transition_status_global_default">Globaler Standard</string>
+    <string name="transition_status_playlist_default">Playlist-Standard</string>
+    <string name="transition_status_following_global">Folgt Global</string>
+    <string name="transition_status_custom_override">Eigene Überschreibung</string>
+    <string name="transition_custom_override_title">Eigene Überschreibung</string>
+    <string name="transition_custom_override_body">Aktivieren, um eigene Regeln nur für diese Playlist zu setzen.</string>
+    <string name="transition_snackbar_using_global">Globale Standards werden verwendet</string>
+    <string name="transition_snackbar_saved">Änderungen gespeichert</string>
+    <string name="transition_style_title">Übergangsstil</string>
+    <string name="transition_style_subtitle">Wie Titel ineinander übergehen</string>
+    <string name="transition_mode_none">Kein Übergang</string>
+    <string name="transition_mode_crossfade">Crossfade</string>
+    <string name="transition_duration_title">Übergangsdauer</string>
+    <string name="transition_duration_subtitle_format">%1$ds Überlappung gesamt</string>
+    <string name="transition_reset_cd">Zurücksetzen</string>
+    <string name="transition_visualizer_current">Aktueller Song</string>
+    <string name="transition_visualizer_next">Nächster Song</string>
+    <string name="transition_overlap_explanation_format">Titel überlappen sich für %1$ds</string>
+    <string name="transition_curves_title">Lautstärkekurven</string>
+    <string name="transition_curves_subtitle">Audiokurve feinjustieren</string>
+    <string name="transition_fade_out">Fade Out</string>
+    <string name="transition_fade_in">Fade In</string>
+
+    <!-- CreatePlaylistScreen -->
+    <string name="playlist_creation_new_smart">Neue Smart-Playlist</string>
+    <string name="playlist_creation_new">Neue Playlist</string>
+    <string name="playlist_creation_add_songs">Songs hinzufügen</string>
+    <string name="playlist_creation_cd_back_or_cancel">Zurück oder Abbrechen</string>
+    <string name="playlist_creation_next">Weiter</string>
+    <string name="playlist_creation_create">Erstellen</string>
+    <string name="playlist_creation_edit">Playlist bearbeiten</string>
+    <string name="playlist_creation_auto_collage">Automatisch generierte Collage</string>
+    <string name="playlist_creation_cd_add_photo">Foto hinzufügen</string>
+    <string name="playlist_creation_pick_image">Bild auswählen</string>
+    <string name="playlist_creation_change">Ändern</string>
+    <string name="playlist_creation_remove">Entfernen</string>
+    <string name="playlist_creation_name_label">Playlist-Name</string>
+    <string name="playlist_creation_name_placeholder">Mein toller Mix</string>
+    <string name="playlist_creation_edit_cover">Cover bearbeiten</string>
+    <string name="playlist_creation_adjust_cover_title">Cover-Bild anpassen</string>
+    <string name="playlist_creation_adjust_cover_hint">Nutze Gesten zum Zoomen und Verschieben</string>
+    <string name="playlist_creation_mode_manual">Manuell</string>
+    <string name="playlist_creation_mode_smart">Smart</string>
+    <string name="playlist_creation_generate_with_ai">Mit KI generieren</string>
+    <string name="playlist_creation_smart_rule">Smart-Regel</string>
+    <string name="playlist_creation_tab_default">Standard</string>
+    <string name="playlist_creation_tab_image">Bild</string>
+    <string name="playlist_creation_tab_icon">Icon</string>
+    <string name="playlist_creation_bg_color">Hintergrundfarbe</string>
+    <string name="playlist_creation_icon_symbol">Icon-Symbol</string>
+    <string name="playlist_creation_shape_style">Formstil</string>
+    <string name="playlist_creation_shape_params">Formparameter</string>
+    <string name="playlist_creation_corner_radius">Eckenradius</string>
+    <string name="playlist_creation_smoothness">Glätte</string>
+    <string name="playlist_creation_sides">Seiten</string>
+    <string name="playlist_creation_curve">Kurve</string>
+    <string name="playlist_creation_rotation">Rotation</string>
+    <string name="playlist_creation_scale">Skalierung</string>
+    <string name="playlist_creation_rule_top_played_title">Meistgespielt</string>
+    <string name="playlist_creation_rule_top_played_sub">Deine am häufigsten gespielten Titel.</string>
+    <string name="playlist_creation_rule_recently_played_title">Zuletzt gespielt</string>
+    <string name="playlist_creation_rule_recently_played_sub">Songs, die du zuletzt gehört hast.</string>
+    <string name="playlist_creation_rule_forgotten_title">Vergessene Favoriten</string>
+    <string name="playlist_creation_rule_forgotten_sub">Lieblingstitel, die du schon länger nicht mehr gespielt hast.</string>
+    <string name="playlist_creation_rule_new_gems_title">Neue Perlen</string>
+    <string name="playlist_creation_rule_new_gems_sub">Kürzlich hinzugefügte Titel mit wenig Wiedergaben.</string>
+
+    <!-- GenreDetailScreen -->
+    <string name="genre_quick_fill">Genre schnell befüllen</string>
+    <string name="genre_sort_title">Sortieren &amp; Abspielen</string>
+    <string name="genre_sort_action_shuffle">Mischen</string>
+    <string name="genre_sort_by_title">Sortieren nach</string>
+    <string name="genre_sort_artist_option">Künstler</string>
+    <string name="genre_sort_album_option">Album</string>
+    <string name="genre_sort_title_option">Titel</string>
+    <string name="genre_cd_generic_artist">Unbekannter Künstler</string>
+    <string name="genre_shuffle_label">%1$s Mischen</string>
+
+    <!-- QuickFillScreen -->
+    <string name="quick_fill_select_songs">Songs auswählen</string>
+    <string name="quick_fill_choose_genre">Genre wählen</string>
+    <string name="quick_fill_search_songs_placeholder">Songs suchen</string>
+    <string name="quick_fill_new_genre">Neues Genre</string>
+    <string name="quick_fill_cd_add_custom_genre">Eigenes hinzufügen</string>
+    <string name="quick_fill_add_custom_genre_title">Eigenes Genre hinzufügen</string>
+    <string name="quick_fill_genre_name_placeholder">Genre-Name</string>
+    <string name="quick_fill_select_icon">Icon auswählen</string>
+    <string name="quick_fill_select_genre_label_format">Genre: %1$s</string>
+    <string name="quik_fill_select_a_genre_label">Genre auswählen</string>
+    <string name="quick_fill_action_title">Quick Fill</string>
+
+    <!-- MashupScreen -->
+    <string name="mashup_title">DJ Space</string>
+    <string name="mashup_loading">Laden…</string>
+    <string name="mashup_deck_n">Deck %1$d</string>
+    <string name="mashup_load_song_cd">Song laden</string>
+    <string name="mashup_no_song_loaded">Kein Song geladen</string>
+    <string name="mashup_artist_placeholder">…</string>
+    <string name="mashup_stem_separation_unavailable">Stem-Trennung ist noch nicht verfügbar.</string>
+    <string name="mashup_volume">Lautstärke</string>
+    <string name="mashup_speed">Geschwindigkeit</string>
+    <string name="mashup_crossfader">Crossfader</string>
+    <string name="mashup_deck_1">Deck 1</string>
+    <string name="mashup_deck_2">Deck 2</string>
+    <string name="mashup_select_song_title">Song auswählen</string>
+    <string name="mashup_cd_play_pause">Play/Pause</string>
+    <string name="mashup_cd_song_cover">Song-Cover</string>
+    <string name="mashup_speed_multiplier">x%1$.2f</string>
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_error_genre_id_missing">Kesalahan: ID Genre hilang</string>
+
+    <!-- SetupScreen -->
+    <string name="setup_lets_go">Mari Mulai!</string>
+    <string name="setup_step_format">Langkah %1$d dari %2$d</string>
+    <string name="setup_toast_grant_permission_first">Mohon berikan izin yang diperlukan terlebih dahulu.</string>
+    <string name="setup_toast_grant_all_permissions">Mohon berikan semua izin yang diperlukan.</string>
+    <string name="setup_welcome_prefix">Selamat datang di </string>
+    <string name="setup_beta_symbol">β</string>
+    <string name="setup_beta_label">Beta</string>
+    <string name="setup_intro_body">Mari kita siapkan segalanya untuk Anda.</string>
+    <string name="setup_permission_media_title">Izin Media</string>
+    <string name="setup_permission_media_description">PixelPlayer memerlukan akses ke file audio Anda untuk membangun pustaka musik Anda.</string>
+    <string name="setup_permission_granted">Izin Diberikan</string>
+    <string name="setup_grant_media_permission">Berikan Izin Media</string>
+    <string name="setup_permission_notifications_title">Notifikasi</string>
+    <string name="setup_permission_notifications_description">Aktifkan notifikasi untuk mengontrol musik Anda dari layar kunci dan panel notifikasi.</string>
+    <string name="setup_enable_notifications">Aktifkan Notifikasi</string>
+    <string name="setup_backup_have_title">Apakah Anda memiliki cadangan?</string>
+    <string name="setup_backup_have_description">Jika Anda sudah memiliki cadangan PixelPlayer, pulihkan sekarang dan lewati sebagian besar penyiapan yang tersisa di perangkat ini.</string>
+    <string name="setup_import_backup">Impor cadangan</string>
+    <string name="setup_inspecting_backup">Memeriksa cadangan</string>
+    <string name="setup_checking_backup">Memeriksa paket cadangan…</string>
+    <string name="setup_restoring_backup">Memulihkan cadangan</string>
+    <string name="setup_skip_for_now">Lewati / Tidak sekarang</string>
+    <string name="setup_restore_backup_title">Pulihkan Cadangan</string>
+    <string name="setup_restore_backup_subtitle">Tinjau apa yang ingin Anda impor sebelum menyelesaikan penyiapan.</string>
+    <string name="setup_modules_selected_format">%1$d dari %2$d modul terpilih</string>
+    <string name="setup_backup_created_format">Dibuat %1$s</string>
+    <string name="setup_backup_from_version">Cadangan dari %1$s</string>
+    <string name="setup_backup_unknown_version">Versi tidak dikenal</string>
+    <string name="setup_restore_selected">Pulihkan yang terpilih</string>
+    <string name="setup_restoring">Memulihkan</string>
+    <string name="setup_excluded_folders_title">Folder yang dikecualikan</string>
+    <string name="setup_excluded_folders_description">Semua folder dipindai secara default. Pilih lokasi mana pun yang ingin Anda abaikan saat membangun pustaka.</string>
+    <string name="setup_choose_folders_ignore">Pilih folder untuk diabaikan</string>
+    <string name="setup_toast_grant_storage_first">Berikan izin penyimpanan terlebih dahulu</string>
+    <string name="setup_theme_title">Tema Aplikasi</string>
+    <string name="setup_theme_subtitle">Pilih tampilan yang Anda inginkan sebelum mulai menjelajahi pustaka Anda.</string>
+    <string name="setup_theme_dark_title">Gelap</string>
+    <string name="setup_theme_dark_description">Tampilan gelap Material 3 default untuk PixelPlayer.</string>
+    <string name="setup_theme_light_title">Terang</string>
+    <string name="setup_theme_light_description">Tampilan Material 3 yang lebih cerah di seluruh aplikasi.</string>
+    <string name="setup_theme_follow_title">Ikuti sistem</string>
+    <string name="setup_theme_follow_description">Cocokkan dengan pengaturan tampilan ponsel Anda saat ini.</string>
+    <string name="setup_recommended">Direkomendasikan</string>
+    <string name="setup_theme_footer">Anda dapat mengubah ini nanti di Pengaturan &gt; Tampilan &gt; Tema Aplikasi.</string>
+    <string name="setup_library_layout_title">Tata Letak Pustaka</string>
+    <string name="setup_library_layout_subtitle">Pilih cara yang Anda sukai untuk menavigasi pustaka Anda.</string>
+    <string name="setup_preview_songs_label">Lagu</string>
+    <string name="setup_compact_mode">Mode Ringkas</string>
+    <string name="setup_compact_mode_pill_hint">Menggunakan navigasi pil minimal</string>
+    <string name="setup_compact_mode_tab_hint">Menggunakan baris tab standar</string>
+    <string name="setup_tab_songs">LAGU</string>
+    <string name="setup_tab_albums">ALBUM</string>
+    <string name="setup_tab_artists">ARTIS</string>
+    <string name="setup_library_layout_footer">Anda dapat mengubah ini nanti di Pengaturan &gt; Tampilan &gt; Navigasi Pustaka.</string>
+    <string name="setup_app_navigation_title">Navigasi Aplikasi</string>
+    <string name="setup_app_navigation_subtitle">Pilih gaya bilah navigasi bawah.</string>
+    <string name="setup_navbar_default_style">Gaya Default</string>
+    <string name="setup_nav_floating_pill_description">Pil melayang dengan sudut membulat</string>
+    <string name="setup_nav_full_width_description">Bilah lebar penuh standar</string>
+    <string name="setup_customize_corner_radius">Sesuaikan Radius Sudut</string>
+    <string name="setup_navbar_footer">Anda dapat mengubah ini nanti di Pengaturan &gt; Tampilan &gt; Gaya Navbar.</string>
+    <string name="setup_permission_alarms_title">Alarm &amp; Pengingat</string>
+    <string name="setup_permission_alarms_description">Opsional, tetapi direkomendasikan jika Anda menggunakan Timer Tidur dan ingin PixelPlayer berhenti memutar tepat waktu.</string>
+    <string name="setup_grant_permission_generic">Berikan Izin</string>
+    <string name="setup_battery_optimization_title">Optimalisasi Baterai</string>
+    <string name="setup_battery_optimization_description">Beberapa perangkat Android secara agresif mematikan aplikasi latar belakang. Nonaktifkan optimalisasi baterai untuk PixelPlayer untuk mencegah gangguan pemutaran yang tidak terduga.</string>
+    <string name="setup_disable_battery_optimization">Nonaktifkan Optimalisasi</string>
+    <string name="setup_all_set_title">Semua Sudah Siap!</string>
+    <string name="setup_all_set_body">Anda siap untuk menikmati musik Anda.</string>
+
+    <!-- SearchScreen -->
+    <string name="search_placeholder">Cari…</string>
+    <string name="search_cd_search_icon">Cari</string>
+    <string name="search_cd_clear_search_query">Bersihkan pencarian</string>
+    <string name="search_recent_searches">Pencarian terbaru</string>
+    <string name="search_action_clear_all">Hapus semua</string>
+    <string name="search_cd_search_history_icon">Riwayat</string>
+    <string name="search_cd_delete_search_history_item">Hapus item riwayat pencarian</string>
+    <string name="search_cd_no_results">Tidak ada hasil</string>
+    <string name="search_no_results_for_query">Tidak ada hasil untuk \"%1$s\"</string>
+    <string name="search_nothing_found">Tidak ditemukan apa pun</string>
+    <string name="search_try_different_or_filters">Coba istilah pencarian yang berbeda atau periksa filter Anda.</string>
+    <string name="search_no_results_found">Tidak ditemukan hasil.</string>
+    <string name="browse_by_genre">Telusuri berdasarkan genre</string>
+    <string name="no_genres_available">Tidak ada genre yang tersedia.</string>
+
+    <!-- ArtistDetailScreen -->
+    <string name="artist_cd_play_title">Putar %1$s</string>
+    <string name="artist_cd_collapse_title">Tutup %1$s</string>
+    <string name="artist_cd_expand_title">Buka %1$s</string>
+    <string name="artist_cd_edit_image">Edit gambar artis</string>
+    <string name="artist_action_change_photo">Ubah foto</string>
+    <string name="artist_action_reset_to_default">Reset ke default</string>
+    <string name="artist_cd_shuffle_play">Putar acak artis</string>
+
+    <!-- AlbumDetailScreen -->
+    <string name="album_disc_number_header">Disc %d</string>
+    <string name="album_cover_for">Sampul %1$s</string>
+    <string name="album_detail_meta_line">%1$s · %2$s</string>
+
+    <!-- PlaylistDetailScreen -->
+    <string name="playlist_not_found">Playlist tidak ditemukan.</string>
+    <string name="playlist_empty_title">Playlist ini kosong.</string>
+    <string name="playlist_empty_add_hint">Ketuk \'Tambah Lagu\' untuk memulai.</string>
+    <string name="playlist_empty_folder_label">Folder ini tidak berisi lagu.</string>
+    <string name="playlist_sort_songs_title">Urutkan Lagu</string>
+    <string name="playlist_more_options_title">Opsi Lainnya</string>
+    <string name="playlist_options_title">Opsi playlist</string>
+    <string name="playlist_action_edit_playlist">Edit playlist</string>
+    <string name="playlist_action_delete_playlist">Hapus playlist</string>
+    <string name="playlist_dialog_delete_title">Hapus playlist?</string>
+    <string name="playlist_dialog_delete_body">Apakah Anda yakin ingin menghapus playlist ini?</string>
+    <string name="playlist_action_set_default_transition">Atur transisi default</string>
+    <string name="playlist_action_export_playlist">Ekspor Playlist</string>
+    <string name="playlist_song_duration_line">%1$s • %2$s</string>
+    <string name="playlist_action_play_it">Putar</string>
+    <string name="playlist_action_add_songs">Tambah</string>
+    <string name="playlist_cd_add_songs">Tambah lagu</string>
+    <string name="playlist_action_remove_songs">Hapus</string>
+    <string name="playlist_cd_remove_songs">Hapus lagu</string>
+    <string name="playlist_action_reorder_songs">Urutkan ulang</string>
+    <string name="playlist_cd_reorder_songs">Urutkan ulang lagu</string>
+
+    <!-- EditTransitionScreen -->
+    <string name="transition_title_global">Transisi global</string>
+    <string name="transition_title_playlist_rules">Aturan playlist</string>
+    <string name="transition_intro_global">Konfigurasi ini berlaku untuk semua sumber pemutaran kecuali ditimpa.</string>
+    <string name="transition_intro_playlist">Konfigurasikan perilaku default untuk playlist khusus ini.</string>
+    <string name="transition_active_status">Status Aktif</string>
+    <string name="transition_status_global_default">Default Global</string>
+    <string name="transition_status_playlist_default">Default Playlist</string>
+    <string name="transition_status_following_global">Mengikuti Global</string>
+    <string name="transition_status_custom_override">Timpalan Kustom</string>
+    <string name="transition_custom_override_title">Timpalan Kustom</string>
+    <string name="transition_custom_override_body">Aktifkan untuk menetapkan aturan khusus untuk playlist ini.</string>
+    <string name="transition_snackbar_using_global">Menggunakan default global</string>
+    <string name="transition_snackbar_saved">Perubahan berhasil disimpan</string>
+    <string name="transition_style_title">Gaya Transisi</string>
+    <string name="transition_style_subtitle">Bagaimana trek menyatu bersama</string>
+    <string name="transition_mode_none">Tidak ada</string>
+    <string name="transition_mode_crossfade">Crossfade</string>
+    <string name="transition_duration_title">Durasi Transisi</string>
+    <string name="transition_duration_subtitle_format">Total tumpang tindih %1$ds</string>
+    <string name="transition_reset_cd">Reset Transisi</string>
+    <string name="transition_visualizer_current">Lagu Saat Ini</string>
+    <string name="transition_visualizer_next">Lagu Berikutnya</string>
+    <string name="transition_overlap_explanation_format">Trek akan tumpang tindih selama %1$ds</string>
+    <string name="transition_curves_title">Kurva Volume</string>
+    <string name="transition_curves_subtitle">Sempurnakan kemiringan audio</string>
+    <string name="transition_fade_out">Fade Out</string>
+    <string name="transition_fade_in">Fade In</string>
+
+    <!-- CreatePlaylistScreen -->
+    <string name="playlist_creation_new_smart">Playlist pintar baru</string>
+    <string name="playlist_creation_new">Playlist baru</string>
+    <string name="playlist_creation_add_songs">Tambah Lagu</string>
+    <string name="playlist_creation_cd_back_or_cancel">Kembali atau Batal</string>
+    <string name="playlist_creation_next">Berikutnya</string>
+    <string name="playlist_creation_create">Buat</string>
+    <string name="playlist_creation_edit">Edit Playlist</string>
+    <string name="playlist_creation_auto_collage">Kolase yang dibuat otomatis</string>
+    <string name="playlist_creation_cd_add_photo">Tambah Foto</string>
+    <string name="playlist_creation_pick_image">Pilih Gambar</string>
+    <string name="playlist_creation_change">Ubah</string>
+    <string name="playlist_creation_remove">Hapus</string>
+    <string name="playlist_creation_name_label">Nama Playlist</string>
+    <string name="playlist_creation_name_placeholder">Campuran hebat saya</string>
+    <string name="playlist_creation_edit_cover">Edit Sampul</string>
+    <string name="playlist_creation_adjust_cover_title">Sesuaikan sampul album Anda</string>
+    <string name="playlist_creation_adjust_cover_hint">Cubit dan geser untuk menyesuaikan framing</string>
+    <string name="playlist_creation_mode_manual">Manual</string>
+    <string name="playlist_creation_mode_smart">Pintar</string>
+    <string name="playlist_creation_generate_with_ai">Hasilkan dengan AI</string>
+    <string name="playlist_creation_smart_rule">Aturan Pintar</string>
+    <string name="playlist_creation_tab_default">Default</string>
+    <string name="playlist_creation_tab_image">Gambar</string>
+    <string name="playlist_creation_tab_icon">Ikon</string>
+    <string name="playlist_creation_bg_color">Warna Latar Belakang</string>
+    <string name="playlist_creation_icon_symbol">Simbol Ikon</string>
+    <string name="playlist_creation_shape_style">Gaya Bentuk</string>
+    <string name="playlist_creation_shape_params">Parameter bentuk</string>
+    <string name="playlist_creation_corner_radius">Radius Sudut</string>
+    <string name="playlist_creation_smoothness">Kehalusan</string>
+    <string name="playlist_creation_sides">Sisi</string>
+    <string name="playlist_creation_curve">Kurva</string>
+    <string name="playlist_creation_rotation">Rotasi</string>
+    <string name="playlist_creation_scale">Skala</string>
+    <string name="playlist_creation_rule_top_played_title">Paling Sering Diputar</string>
+    <string name="playlist_creation_rule_top_played_sub">Trek Anda yang paling sering diputar.</string>
+    <string name="playlist_creation_rule_recently_played_title">Baru-baru Ini Diputar</string>
+    <string name="playlist_creation_rule_recently_played_sub">Lagu yang paling baru-baru ini Anda dengarkan.</string>
+    <string name="playlist_creation_rule_forgotten_title">Favorit yang Terlupakan</string>
+    <string name="playlist_creation_rule_forgotten_sub">Trek favorit yang sudah lama tidak Anda putar.</string>
+    <string name="playlist_creation_rule_new_gems_title">Permata Baru</string>
+    <string name="playlist_creation_rule_new_gems_sub">Trek yang baru ditambahkan dengan jumlah putaran rendah.</string>
+
+    <!-- GenreDetailScreen -->
+    <string name="genre_quick_fill">Isi Cepat Genre</string>
+    <string name="genre_sort_title">Urutkan &amp; Putar</string>
+    <string name="genre_sort_action_shuffle">Acak</string>
+    <string name="genre_sort_by_title">Urutkan Berdasarkan</string>
+    <string name="genre_sort_artist_option">Artis</string>
+    <string name="genre_sort_album_option">Album</string>
+    <string name="genre_sort_title_option">Judul</string>
+    <string name="genre_cd_generic_artist">Artis umum</string>
+    <string name="genre_shuffle_label">%1$s Acak</string>
+
+    <!-- QuickFillScreen -->
+    <string name="quick_fill_select_songs">Pilih Lagu</string>
+    <string name="quick_fill_choose_genre">Pilih Genre</string>
+    <string name="quick_fill_search_songs_placeholder">Cari lagu</string>
+    <string name="quick_fill_new_genre">Genre Baru</string>
+    <string name="quick_fill_cd_add_custom_genre">Tambah Kustom</string>
+    <string name="quick_fill_add_custom_genre_title">Tambah Genre Kustom</string>
+    <string name="quick_fill_genre_name_placeholder">Nama Genre</string>
+    <string name="quick_fill_select_icon">Pilih Ikon</string>
+    <string name="quick_fill_select_genre_label_format">Genre: %1$s</string>
+    <string name="quik_fill_select_a_genre_label">Pilih genre</string>
+    <string name="quick_fill_action_title">Isi Cepat</string>
+
+    <!-- MashupScreen -->
+    <string name="mashup_title">DJ Space</string>
+    <string name="mashup_loading">Memuat…</string>
+    <string name="mashup_deck_n">Deck %1$d</string>
+    <string name="mashup_load_song_cd">Muat lagu</string>
+    <string name="mashup_no_song_loaded">Tidak ada lagu yang dimuat</string>
+    <string name="mashup_artist_placeholder">…</string>
+    <string name="mashup_stem_separation_unavailable">Pemisahan stem belum tersedia.</string>
+    <string name="mashup_volume">Volume</string>
+    <string name="mashup_speed">Kecepatan</string>
+    <string name="mashup_crossfader">Crossfader</string>
+    <string name="mashup_deck_1">Deck 1</string>
+    <string name="mashup_deck_2">Deck 2</string>
+    <string name="mashup_select_song_title">Pilih lagu</string>
+    <string name="mashup_cd_play_pause">Putar/Jeda</string>
+    <string name="mashup_cd_song_cover">Sampul lagu</string>
+    <string name="mashup_speed_multiplier">x%1$.2f</string>
+</resources>

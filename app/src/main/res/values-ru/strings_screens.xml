@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_error_genre_id_missing">Ошибка: отсутствует ID жанра</string>
+
+    <!-- SetupScreen -->
+    <string name="setup_lets_go">Поехали!</string>
+    <string name="setup_step_format">Шаг %1$d из %2$d</string>
+    <string name="setup_toast_grant_permission_first">Сначала предоставьте необходимое разрешение.</string>
+    <string name="setup_toast_grant_all_permissions">Пожалуйста, предоставьте все необходимые разрешения.</string>
+    <string name="setup_welcome_prefix">Добро пожаловать в </string>
+    <string name="setup_beta_symbol">β</string>
+    <string name="setup_beta_label">Бета</string>
+    <string name="setup_intro_body">Давайте всё настроим.</string>
+    <string name="setup_permission_media_title">Доступ к медиафайлам</string>
+    <string name="setup_permission_media_description">PixelPlayer нужен доступ к вашим аудиофайлам для создания музыкальной медиатеки.</string>
+    <string name="setup_permission_granted">Разрешение предоставлено</string>
+    <string name="setup_grant_media_permission">Предоставить доступ к медиафайлам</string>
+    <string name="setup_permission_notifications_title">Уведомления</string>
+    <string name="setup_permission_notifications_description">Включите уведомления, чтобы управлять музыкой с экрана блокировки и панели уведомлений.</string>
+    <string name="setup_enable_notifications">Включить уведомления</string>
+    <string name="setup_backup_have_title">У вас есть резервная копия?</string>
+    <string name="setup_backup_have_description">Если у вас уже есть резервная копия PixelPlayer, восстановите её сейчас и пропустите большую часть настройки на этом устройстве.</string>
+    <string name="setup_import_backup">Импортировать резервную копию</string>
+    <string name="setup_inspecting_backup">Проверка резервной копии</string>
+    <string name="setup_checking_backup">Проверка пакета резервной копии…</string>
+    <string name="setup_restoring_backup">Восстановление резервной копии</string>
+    <string name="setup_skip_for_now">Пропустить / Пока нет</string>
+    <string name="setup_restore_backup_title">Восстановление резервной копии</string>
+    <string name="setup_restore_backup_subtitle">Проверьте, что хотите импортировать, перед завершением настройки.</string>
+    <string name="setup_modules_selected_format">%1$d из %2$d модулей выбрано</string>
+    <string name="setup_backup_created_format">Создано %1$s</string>
+    <string name="setup_backup_from_version">Резервная копия из версии %1$s</string>
+    <string name="setup_backup_unknown_version">Неизвестная версия</string>
+    <string name="setup_restore_selected">Восстановить выбранное</string>
+    <string name="setup_restoring">Восстановление</string>
+    <string name="setup_excluded_folders_title">Исключённые папки</string>
+    <string name="setup_excluded_folders_description">По умолчанию сканируются все папки. Выберите места, которые нужно игнорировать при создании медиатеки.</string>
+    <string name="setup_choose_folders_ignore">Выбрать папки для игнорирования</string>
+    <string name="setup_toast_grant_storage_first">Сначала предоставьте доступ к хранилищу</string>
+    <string name="setup_theme_title">Тема приложения</string>
+    <string name="setup_theme_subtitle">Выберите внешний вид приложения перед началом работы.</string>
+    <string name="setup_theme_dark_title">Тёмная</string>
+    <string name="setup_theme_dark_description">Стандартная тёмная тема Material 3 для PixelPlayer.</string>
+    <string name="setup_theme_light_title">Светлая</string>
+    <string name="setup_theme_light_description">Более светлая тема Material 3 для всего приложения.</string>
+    <string name="setup_theme_follow_title">Как в системе</string>
+    <string name="setup_theme_follow_description">Следовать текущим настройкам оформления телефона.</string>
+    <string name="setup_recommended">Рекомендуется</string>
+    <string name="setup_theme_footer">Позже это можно изменить в Настройки &gt; Внешний вид &gt; Тема приложения.</string>
+    <string name="setup_library_layout_title">Макет медиатеки</string>
+    <string name="setup_library_layout_subtitle">Выберите предпочтительный способ навигации по медиатеке.</string>
+    <string name="setup_preview_songs_label">Треки</string>
+    <string name="setup_compact_mode">Компактный режим</string>
+    <string name="setup_compact_mode_pill_hint">Минималистичная навигация-пилюля</string>
+    <string name="setup_compact_mode_tab_hint">Стандартные вкладки</string>
+    <string name="setup_tab_songs">ТРЕКИ</string>
+    <string name="setup_tab_albums">АЛЬБОМЫ</string>
+    <string name="setup_tab_artists">ИСПОЛНИТЕЛИ</string>
+    <string name="setup_library_layout_footer">Позже это можно изменить в Настройки &gt; Внешний вид &gt; Навигация по медиатеке.</string>
+    <string name="setup_app_navigation_title">Навигация приложения</string>
+    <string name="setup_app_navigation_subtitle">Выберите стиль нижней панели навигации.</string>
+    <string name="setup_navbar_default_style">Стиль по умолчанию</string>
+    <string name="setup_nav_floating_pill_description">Плавающая пилюля со скруглёнными углами</string>
+    <string name="setup_nav_full_width_description">Стандартная панель на всю ширину</string>
+    <string name="setup_customize_corner_radius">Настроить радиус скругления</string>
+    <string name="setup_navbar_footer">Позже это можно изменить в Настройки &gt; Внешний вид &gt; Стиль панели навигации.</string>
+    <string name="setup_permission_alarms_title">Будильники и напоминания</string>
+    <string name="setup_permission_alarms_description">Необязательно, но рекомендуется, если вы используете таймер сна и хотите, чтобы PixelPlayer останавливал воспроизведение точно вовремя.</string>
+    <string name="setup_grant_permission_generic">Предоставить разрешение</string>
+    <string name="setup_battery_optimization_title">Оптимизация батареи</string>
+    <string name="setup_battery_optimization_description">Некоторые устройства Android агрессивно закрывают фоновые приложения. Отключите оптимизацию батареи для PixelPlayer, чтобы избежать неожиданных прерываний воспроизведения.</string>
+    <string name="setup_disable_battery_optimization">Отключить оптимизацию</string>
+    <string name="setup_all_set_title">Готово!</string>
+    <string name="setup_all_set_body">Теперь можно наслаждаться музыкой.</string>
+
+    <!-- SearchScreen -->
+    <string name="search_placeholder">Поиск…</string>
+    <string name="search_cd_search_icon">Поиск</string>
+    <string name="search_cd_clear_search_query">Очистить поиск</string>
+    <string name="search_recent_searches">Недавние запросы</string>
+    <string name="search_action_clear_all">Очистить всё</string>
+    <string name="search_cd_search_history_icon">История</string>
+    <string name="search_cd_delete_search_history_item">Удалить элемент истории поиска</string>
+    <string name="search_cd_no_results">Нет результатов</string>
+    <string name="search_no_results_for_query">Нет результатов для «%1$s»</string>
+    <string name="search_nothing_found">Ничего не найдено</string>
+    <string name="search_try_different_or_filters">Попробуйте другой запрос или проверьте фильтры.</string>
+    <string name="search_no_results_found">Результаты не найдены.</string>
+    <string name="browse_by_genre">Обзор по жанрам</string>
+    <string name="no_genres_available">Жанры недоступны.</string>
+
+    <!-- ArtistDetailScreen -->
+    <string name="artist_cd_play_title">Воспроизвести %1$s</string>
+    <string name="artist_cd_collapse_title">Свернуть %1$s</string>
+    <string name="artist_cd_expand_title">Развернуть %1$s</string>
+    <string name="artist_cd_edit_image">Изменить изображение исполнителя</string>
+    <string name="artist_action_change_photo">Изменить фото</string>
+    <string name="artist_action_reset_to_default">Сбросить по умолчанию</string>
+    <string name="artist_cd_shuffle_play">Перемешать треки исполнителя</string>
+
+    <!-- AlbumDetailScreen -->
+    <string name="album_disc_number_header">Диск %d</string>
+    <string name="album_cover_for">Обложка %1$s</string>
+    <string name="album_detail_meta_line">%1$s · %2$s</string>
+
+    <!-- PlaylistDetailScreen -->
+    <string name="playlist_not_found">Плейлист не найден.</string>
+    <string name="playlist_empty_title">Этот плейлист пуст.</string>
+    <string name="playlist_empty_add_hint">Нажмите «Добавить треки», чтобы начать.</string>
+    <string name="playlist_empty_folder_label">В этой папке нет треков.</string>
+    <string name="playlist_sort_songs_title">Сортировать треки</string>
+    <string name="playlist_more_options_title">Дополнительные параметры</string>
+    <string name="playlist_options_title">Параметры плейлиста</string>
+    <string name="playlist_action_edit_playlist">Изменить плейлист</string>
+    <string name="playlist_action_delete_playlist">Удалить плейлист</string>
+    <string name="playlist_dialog_delete_title">Удалить плейлист?</string>
+    <string name="playlist_dialog_delete_body">Вы уверены, что хотите удалить этот плейлист?</string>
+    <string name="playlist_action_set_default_transition">Установить переход по умолчанию</string>
+    <string name="playlist_action_export_playlist">Экспортировать плейлист</string>
+    <string name="playlist_song_duration_line">%1$s • %2$s</string>
+    <string name="playlist_action_play_it">Воспроизвести</string>
+    <string name="playlist_action_add_songs">Добавить</string>
+    <string name="playlist_cd_add_songs">Добавить треки</string>
+    <string name="playlist_action_remove_songs">Удалить</string>
+    <string name="playlist_cd_remove_songs">Удалить треки</string>
+    <string name="playlist_action_reorder_songs">Изменить порядок</string>
+    <string name="playlist_cd_reorder_songs">Изменить порядок треков</string>
+
+    <!-- EditTransitionScreen -->
+    <string name="transition_title_global">Глобальные переходы</string>
+    <string name="transition_title_playlist_rules">Правила плейлиста</string>
+    <string name="transition_intro_global">Эта конфигурация применяется ко всем источникам воспроизведения, если не задано иное.</string>
+    <string name="transition_intro_playlist">Настройте поведение по умолчанию для этого плейлиста.</string>
+    <string name="transition_active_status">Текущий статус</string>
+    <string name="transition_status_global_default">Глобально по умолчанию</string>
+    <string name="transition_status_playlist_default">По умолчанию для плейлиста</string>
+    <string name="transition_status_following_global">Следует глобальным настройкам</string>
+    <string name="transition_status_custom_override">Пользовательская настройка</string>
+    <string name="transition_custom_override_title">Пользовательская настройка</string>
+    <string name="transition_custom_override_body">Включите, чтобы задать особые правила для этого плейлиста.</string>
+    <string name="transition_snackbar_using_global">Используются глобальные настройки</string>
+    <string name="transition_snackbar_saved">Изменения успешно сохранены</string>
+    <string name="transition_style_title">Стиль перехода</string>
+    <string name="transition_style_subtitle">Как композиции переходят друг в друга</string>
+    <string name="transition_mode_none">Без перехода</string>
+    <string name="transition_mode_crossfade">Кроссфейд</string>
+    <string name="transition_duration_title">Длительность перехода</string>
+    <string name="transition_duration_subtitle_format">%1$dс перекрытия</string>
+    <string name="transition_reset_cd">Сбросить переход</string>
+    <string name="transition_visualizer_current">Текущий трек</string>
+    <string name="transition_visualizer_next">Следующий трек</string>
+    <string name="transition_overlap_explanation_format">Треки будут перекрываться %1$dс</string>
+    <string name="transition_curves_title">Кривые громкости</string>
+    <string name="transition_curves_subtitle">Точная настройка изменения громкости</string>
+    <string name="transition_fade_out">Затухание</string>
+    <string name="transition_fade_in">Нарастание</string>
+
+    <!-- CreatePlaylistScreen -->
+    <string name="playlist_creation_new_smart">Новый умный плейлист</string>
+    <string name="playlist_creation_new">Новый плейлист</string>
+    <string name="playlist_creation_add_songs">Добавить песни</string>
+    <string name="playlist_creation_cd_back_or_cancel">Назад или отмена</string>
+    <string name="playlist_creation_next">Далее</string>
+    <string name="playlist_creation_create">Создать</string>
+    <string name="playlist_creation_edit">Редактировать плейлист</string>
+    <string name="playlist_creation_auto_collage">Автоматический коллаж</string>
+    <string name="playlist_creation_cd_add_photo">Добавить фото</string>
+    <string name="playlist_creation_pick_image">Выбрать изображение</string>
+    <string name="playlist_creation_change">Изменить</string>
+    <string name="playlist_creation_remove">Удалить</string>
+    <string name="playlist_creation_name_label">Название плейлиста</string>
+    <string name="playlist_creation_name_placeholder">Мой отличный микс</string>
+    <string name="playlist_creation_edit_cover">Изменить обложку</string>
+    <string name="playlist_creation_adjust_cover_title">Настройте обложку</string>
+    <string name="playlist_creation_adjust_cover_hint">Используйте жесты масштабирования и перетаскивания для идеального кадрирования</string>
+    <string name="playlist_creation_mode_manual">Вручную</string>
+    <string name="playlist_creation_mode_smart">Умный</string>
+    <string name="playlist_creation_generate_with_ai">Создать с ИИ</string>
+    <string name="playlist_creation_smart_rule">Умное правило</string>
+    <string name="playlist_creation_tab_default">По умолчанию</string>
+    <string name="playlist_creation_tab_image">Изображение</string>
+    <string name="playlist_creation_tab_icon">Иконка</string>
+    <string name="playlist_creation_bg_color">Цвет фона</string>
+    <string name="playlist_creation_icon_symbol">Символ иконки</string>
+    <string name="playlist_creation_shape_style">Стиль формы</string>
+    <string name="playlist_creation_shape_params">Параметры формы</string>
+    <string name="playlist_creation_corner_radius">Радиус скругления</string>
+    <string name="playlist_creation_smoothness">Плавность</string>
+    <string name="playlist_creation_sides">Стороны</string>
+    <string name="playlist_creation_curve">Кривая</string>
+    <string name="playlist_creation_rotation">Поворот</string>
+    <string name="playlist_creation_scale">Масштаб</string>
+    <string name="playlist_creation_rule_top_played_title">Часто прослушиваемые</string>
+    <string name="playlist_creation_rule_top_played_sub">Ваши самые прослушиваемые треки.</string>
+    <string name="playlist_creation_rule_recently_played_title">Недавно прослушанные</string>
+    <string name="playlist_creation_rule_recently_played_sub">Треки, которые вы слушали недавно.</string>
+    <string name="playlist_creation_rule_forgotten_title">Забытые любимые</string>
+    <string name="playlist_creation_rule_forgotten_sub">Любимые треки, которые вы давно не включали.</string>
+    <string name="playlist_creation_rule_new_gems_title">Новые находки</string>
+    <string name="playlist_creation_rule_new_gems_sub">Недавно добавленные треки с небольшим числом прослушиваний.</string>
+
+    <!-- GenreDetailScreen -->
+    <string name="genre_quick_fill">Быстро заполнить жанр</string>
+    <string name="genre_sort_title">Сортировка и воспроизведение</string>
+    <string name="genre_sort_action_shuffle">Перемешать</string>
+    <string name="genre_sort_by_title">Сортировать по</string>
+    <string name="genre_sort_artist_option">Исполнитель</string>
+    <string name="genre_sort_album_option">Альбом</string>
+    <string name="genre_sort_title_option">Название</string>
+    <string name="genre_cd_generic_artist">Неизвестный исполнитель</string>
+    <string name="genre_shuffle_label">Перемешать %1$s</string>
+
+    <!-- QuickFillScreen -->
+    <string name="quick_fill_select_songs">Выбрать песни</string>
+    <string name="quick_fill_choose_genre">Выбрать жанр</string>
+    <string name="quick_fill_search_songs_placeholder">Поиск песен</string>
+    <string name="quick_fill_new_genre">Новый жанр</string>
+    <string name="quick_fill_cd_add_custom_genre">Добавить свой</string>
+    <string name="quick_fill_add_custom_genre_title">Добавить свой жанр</string>
+    <string name="quick_fill_genre_name_placeholder">Название жанра</string>
+    <string name="quick_fill_select_icon">Выбрать иконку</string>
+    <string name="quick_fill_select_genre_label_format">Жанр: %1$s</string>
+    <string name="quik_fill_select_a_genre_label">Выберите жанр</string>
+    <string name="quick_fill_action_title">Быстрое заполнение</string>
+
+    <!-- MashupScreen -->
+    <string name="mashup_title">DJ Space</string>
+    <string name="mashup_loading">Загрузка…</string>
+    <string name="mashup_deck_n">Дека %1$d</string>
+    <string name="mashup_load_song_cd">Загрузить песню</string>
+    <string name="mashup_no_song_loaded">Песня не загружена</string>
+    <string name="mashup_artist_placeholder">…</string>
+    <string name="mashup_stem_separation_unavailable">Разделение дорожек пока недоступно.</string>
+    <string name="mashup_volume">Громкость</string>
+    <string name="mashup_speed">Скорость</string>
+    <string name="mashup_crossfader">Кроссфейдер</string>
+    <string name="mashup_deck_1">Дека 1</string>
+    <string name="mashup_deck_2">Дека 2</string>
+    <string name="mashup_select_song_title">Выберите песню</string>
+    <string name="mashup_cd_play_pause">Воспроизведение/Пауза</string>
+    <string name="mashup_cd_song_cover">Обложка песни</string>
+    <string name="mashup_speed_multiplier">x%1$.2f</string>
+</resources>

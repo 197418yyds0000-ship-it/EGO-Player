@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PixelPlayer</string>
+    <string name="app_tagline">Musikkspiller</string>
+    <string name="app_name_change_title">Endring av app-navn</string>
+    <string name="app_name_change_message">Vi har endret appens navn fra PixelPlay til PixelPlayer på grunn av et varemerkeproblem. Fortsett spillingen!</string>
+    <string name="app_name_change_do_not_show_again">Ikke vis igjen</string>
+
+    <!-- Navigation Bar Labels -->
+    <string name="nav_bar_home">Hjem</string>
+    <string name="nav_bar_search">Søk</string>
+    <string name="nav_bar_library">Bibliotek</string>
+
+    <!-- All files access dialog-->
+    <string name="all_files_access_title">Spesiell tillatelse kreves</string>
+    <string name="all_files_access_description">For å redigere sang-metadata (.mp3-filer) trenger PixelPlayer spesiell tilgang til alle filer. Dette lar oss endre spor-tagger direkte. Vennligst gi denne tillatelsen på neste skjerm for å aktivere redigering av metadata.</string>
+    <string name="grant_permission_button">Gi tillatelse</string>
+
+    <!-- External Player -->
+    <string name="external_queue_label">Hurtigspilling</string>
+    <string name="external_playback_error">Kunne ikke åpne lydfilen.</string>
+    <string name="external_action_open_full_player">Åpne full spiller</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_shuffle_short">Bland</string>
+    <string name="shortcut_shuffle_long">Bland alle sanger</string>
+    <string name="tile_shuffle_all">Bland alle</string>
+    <string name="tile_last_playlist">Siste spilleliste</string>
+    <string name="tile_last_playlist_unavailable">Ingen spilleliste tilgjengelig for åpning</string>
+
+    <!-- Playstore Announcement -->
+    <string name="playstore_dialog_action_open">Åpne Play Store</string>
+    <string name="playstore_dialog_action_continue_beta">Fortsett beta</string>
+    <string name="playstore_dialog_link_pending">Play Store-lenken vil bli aktivert snart.</string>
+    <string name="playstore_dialog_title">PixelPlayer er nå tilgjengelig på Google Play</string>
+    <string name="playstore_dialog_body">Bruk den stabile versjonen på Google Play for oppdateringer, mens vi holder beta-versjonene aktive.</string>
+    <string name="playstore_dialog_app_name">PixelPlayer</string>
+    <string name="playstore_dialog_release_announcement">Lanseringsmelding</string>
+    <string name="playstore_dialog_coming_soon">Kommer snart</string>
+
+    <!-- Brick breaker -->
+    <string name="easter_egg_thank_you">Takk for at du bruker PixelPlayer!</string>
+    <string name="brick_high">REKORD %1$d</string>
+    <string name="brick_cd_close">Lukk</string>
+    <string name="brick_stat_score">POENG</string>
+    <string name="brick_stat_lvl">NIVÅ %1$d</string>
+    <string name="brick_stat_lives">LIV</string>
+    <string name="brick_level_complete">NIVÅ FULLFØRT!</string>
+    <string name="brick_game_over">GAME OVER</string>
+    <string name="brick_score_line">Poeng: %1$d</string>
+    <string name="brick_try_again">Prøv igjen?</string>
+    <string name="brick_next_level">Neste nivå</string>
+    <string name="brick_restart">Start på nytt</string>
+    <string name="brick_tap_relaunch">TRYKK FOR Å STARTE PÅ NYTT</string>
+    <string name="brick_play_random">Spill tilfeldig musikk</string>
+    <string name="brick_title">Brick Breaker</string>
+    <string name="brick_high_score">REKORD  %1$d</string>
+    <string name="brick_play">Spill</string>
+    <string name="brick_drag_paddle">Dra for å bevege paddelen</string>
+
+    <!-- Music Service -->
+    <string name="close_notification_player">Lukk spiller</string>
+    <string name="service_processing_action">Behandler handling…</string>
+    <string name="player_playback_error">Avspillingsfeil: %1$s</string>
+
+    <!-- Common Text & Labels -->
+    <string name="common_back">Tilbake</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Avbryt</string>
+    <string name="common_dismiss">Lukk</string>
+    <string name="common_error">Feil</string>
+    <string name="common_search">Søk</string>
+    <string name="common_clear_search">Tøm søk</string>
+    <string name="common_all">Alle</string>
+    <string name="common_confirm">Bekreft</string>
+    <string name="common_saved">Lagret!</string>
+    <string name="common_selected">Valgt</string>
+    <string name="common_percentage_text">%1$d%%</string>
+    <string name="common_artist">Artist</string>
+    <string name="common_select_all">Velg alle</string>
+    <string name="common_clear">Tøm</string>
+    <string name="common_error_unknown">Ukjent feil</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">Lagre</string>
+    <string name="common_done">Ferdig</string>
+    <string name="common_reset">Nullstill</string>
+    <string name="common_apply">Bruk</string>
+    <string name="common_shuffle">Bland</string>
+    <string name="common_copy">Kopier</string>
+    <string name="common_share">Del</string>
+    <string name="common_undo">Angre</string>
+    <string name="common_import">Importer</string>
+    <string name="common_delete">Slett</string>
+    <string name="common_export">Eksporter</string>
+    <string name="common_merge">Slå sammen</string>
+    <string name="common_rename">Gi nytt navn</string>
+    <string name="common_create">Opprett</string>
+    <string name="common_lyrics">Sangtekster</string>
+    <string name="common_settings">Innstillinger</string>
+    <string name="common_album_art">Albumkunst</string>
+    <string name="common_playlist">Spilleliste</string>
+    <string name="common_unknown_track">Ukjent spor</string>
+    <string name="common_unknown_artist">Ukjent artist</string>
+    <string name="common_unknown_album">Ukjent album</string>
+    <string name="common_close">Lukk</string>
+    <string name="common_add">Legg til</string>
+    <string name="common_remove">Fjern</string>
+    <string name="common_play">Spill av</string>
+    <string name="common_previous_track">Forrige spor</string>
+    <string name="common_next_track">Neste spor</string>
+    <string name="common_favorite">Favoritt</string>
+    <string name="common_pause">Pause</string>
+    <string name="common_repeat">Gjenta</string>
+    <string name="common_options">Alternativer</string>
+    <string name="common_shuffle_play">Bland og spill</string>
+    <string name="common_more_options_for">Flere alternativer for %1$s</string>
+    <string name="common_expand_menu">Utvid meny</string>
+    <string name="common_next">Neste</string>
+    <string name="common_finish">Fullfør</string>
+    <string name="common_reset_defaults">Nullstill til standard</string>
+    <string name="common_export_all">Eksporter alle</string>
+    <string name="common_merge_all">Slå sammen alle</string>
+    <string name="common_share_all">Del alle</string>
+    <string name="common_play_album">Spill album</string>
+    <string name="common_shuffle_play_album">Bland album</string>
+    <string name="common_album_art_for_title">Albumkunst for %1$s</string>
+</resources>

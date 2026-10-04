@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PixelPlayer</string>
+    <string name="app_tagline">Reproductor de música</string>
+    <string name="app_name_change_title">Cambio de nombre de la app</string>
+    <string name="app_name_change_message">Hemos cambiado el nombre de nuestra app de PixelPlay a PixelPlayer debido a un problema de marca registrada. ¡Sigue reproduciendo!</string>
+    <string name="app_name_change_do_not_show_again">No volver a mostrar</string>
+
+    <!-- Navigation Bar Labels -->
+    <string name="nav_bar_home">Inicio</string>
+    <string name="nav_bar_search">Buscar</string>
+    <string name="nav_bar_library">Biblioteca</string>
+
+    <!-- All files access dialog-->
+    <string name="all_files_access_title">Permiso especial requerido</string>
+    <string name="all_files_access_description">Para poder editar los metadatos de tus canciones (archivos .mp3), PixelPlayer necesita un permiso especial de acceso a todos los archivos. Esto nos permitirá modificar las etiquetas de tus pistas directamente. Por favor, concede este permiso en la siguiente pantalla para habilitar la edición de metadatos.</string>
+    <string name="grant_permission_button">Conceder permiso</string>
+
+    <!-- External Player -->
+    <string name="external_queue_label">Reproducción rápida</string>
+    <string name="external_playback_error">No se puede abrir ese archivo de audio.</string>
+    <string name="external_action_open_full_player">Abrir reproductor completo</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_shuffle_short">Aleatorio</string>
+    <string name="shortcut_shuffle_long">Reproducir todas las canciones en orden aleatorio</string>
+    <string name="tile_shuffle_all">Reproducción aleatoria</string>
+    <string name="tile_last_playlist">Última lista</string>
+    <string name="tile_last_playlist_unavailable">No hay ninguna lista disponible para abrir</string>
+
+    <!-- Playstore Announcement -->
+    <string name="playstore_dialog_action_open">Abrir Play Store</string>
+    <string name="playstore_dialog_action_continue_beta">Continuar en la beta</string>
+    <string name="playstore_dialog_link_pending">El enlace de Play Store se habilitará desde la configuración de GitHub.</string>
+    <string name="playstore_dialog_title">PixelPlayer ya está disponible en Google Play</string>
+    <string name="playstore_dialog_body">Usa el canal estable en Google Play para actualizaciones de lanzamiento mientras mantenemos activas las compilaciones beta.</string>
+    <string name="playstore_dialog_app_name">PixelPlayer</string>
+    <string name="playstore_dialog_release_announcement">Anuncio de lanzamiento</string>
+    <string name="playstore_dialog_coming_soon">Próximamente</string>
+
+    <!-- Brick breaker -->
+    <string name="easter_egg_thank_you">¡Gracias por usar PixelPlayer!</string>
+    <string name="brick_high">ALTO %1$d</string>
+    <string name="brick_cd_close">Cerrar</string>
+    <string name="brick_stat_score">PUNTUACIÓN</string>
+    <string name="brick_stat_lvl">NIVEL %1$d</string>
+    <string name="brick_stat_lives">VIDAS</string>
+    <string name="brick_level_complete">¡NIVEL COMPLETADO!</string>
+    <string name="brick_game_over">FIN DE LA PARTIDA</string>
+    <string name="brick_score_line">Puntuación: %1$d</string>
+    <string name="brick_try_again">¿Intentarlo de nuevo?</string>
+    <string name="brick_next_level">Siguiente nivel</string>
+    <string name="brick_restart">Reiniciar juego</string>
+    <string name="brick_tap_relaunch">TOCA PARA REINICIAR</string>
+    <string name="brick_play_random">Reproducir música aleatoria</string>
+    <string name="brick_title">Rompe Ladrillos</string>
+    <string name="brick_high_score">PUNTUACIÓN MÁXIMA %1$d</string>
+    <string name="brick_play">Jugar</string>
+    <string name="brick_drag_paddle">Arrastra para mover la paleta</string>
+
+    <!-- Music Service -->
+    <string name="close_notification_player">Cerrar reproductor</string>
+    <string name="service_processing_action">Procesando acción de reproducción…</string>
+    <string name="player_playback_error">Error de reproducción: %1$s</string>
+
+    <!-- Common Text & Labels -->
+    <string name="common_back">Atrás</string>
+    <string name="common_ok">Aceptar</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_dismiss">Descartar</string>
+    <string name="common_error">Error</string>
+    <string name="common_search">Buscar</string>
+    <string name="common_clear_search">Borrar búsqueda</string>
+    <string name="common_all">Todos</string>
+    <string name="common_confirm">Confirmar</string>
+    <string name="common_saved">¡Guardado!</string>
+    <string name="common_selected">Seleccionado</string>
+    <string name="common_percentage_text">%1$d%%</string>
+    <string name="common_artist">Artista</string>
+    <string name="common_select_all">Seleccionar todo</string>
+    <string name="common_clear">Limpiar</string>
+    <string name="common_error_unknown">Error desconocido</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="common_save">Guardar</string>
+    <string name="common_done">Hecho</string>
+    <string name="common_reset">Restablecer</string>
+    <string name="common_apply">Aplicar</string>
+    <string name="common_shuffle">Aleatorio</string>
+    <string name="common_copy">Copiar</string>
+    <string name="common_share">Compartir</string>
+    <string name="common_undo">Deshacer</string>
+    <string name="common_import">Importar</string>
+    <string name="common_delete">Eliminar</string>
+    <string name="common_export">Exportar</string>
+    <string name="common_merge">Combinar</string>
+    <string name="common_rename">Renombrar</string>
+    <string name="common_create">Crear</string>
+    <string name="common_lyrics">Letras</string>
+    <string name="common_settings">Ajustes</string>
+    <string name="common_album_art">Carátula del álbum</string>
+    <string name="common_playlist">Lista de reproducción</string>
+    <string name="common_unknown_track">Pista desconocida</string>
+    <string name="common_unknown_artist">Artista desconocido</string>
+    <string name="common_unknown_album">Álbum desconocido</string>
+    <string name="common_close">Cerrar</string>
+    <string name="common_add">Añadir</string>
+    <string name="common_remove">Quitar</string>
+    <string name="common_play">Reproducir</string>
+    <string name="common_previous_track">Pista anterior</string>
+    <string name="common_next_track">Pista siguiente</string>
+    <string name="common_favorite">Favorito</string>
+    <string name="common_pause">Pausa</string>
+    <string name="common_repeat">Repetir</string>
+    <string name="common_options">Opciones</string>
+    <string name="common_shuffle_play">Reproducción aleatoria</string>
+    <string name="common_more_options_for">Más opciones para %1$s</string>
+    <string name="common_expand_menu">Expandir menú</string>
+    <string name="common_next">Siguiente</string>
+    <string name="common_finish">Finalizar</string>
+    <string name="common_reset_defaults">Restablecer valores predeterminados</string>
+    <string name="common_export_all">Exportar todo</string>
+    <string name="common_merge_all">Combinar todo</string>
+    <string name="common_share_all">Compartir todo</string>
+    <string name="common_play_album">Reproducir álbum</string>
+    <string name="common_shuffle_play_album">Reproducción aleatoria del álbum</string>
+    <string name="common_album_art_for_title">Carátula del álbum para %1$s</string>
+</resources>
