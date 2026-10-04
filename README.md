@@ -1,5 +1,19 @@
 # PixelPlayer 🎵
+> 🚀 EGO-Player Android 10 Port  
+> A PixelPlayer fork optimized for Android 10 devices with Material You improvements, performance fixes and experimental UI features.
 
+---
+
+## 📱 Android 10 Support
+
+This fork focuses on bringing PixelPlayer to older devices:
+
+- ✅ Android 10 (API 29) compatibility
+- ✅ ARM64 devices support
+- ✅ Improved storage permission handling
+- ✅ Android 10 optimized animations
+- ✅ Reduced memory usage
+- ✅ Better compatibility with older MediaCodec implementations
 <p align="center">
   <img src="assets/PixelPlayer.svg" alt="App Icon" height="250"/>
 </p>
