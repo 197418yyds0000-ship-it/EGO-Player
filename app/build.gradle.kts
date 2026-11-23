@@ -238,7 +238,7 @@ kotlin {
 
 dependencies {
     // Android 10-compatible Compose blur fallback (CPU on API 30 and below)
-    implementation("com.github.skydoves:cloudy:0.2.7")
+    implementation("com.github.skydoves:cloudy:0.7.1")
     // Core & Optimization
     coreLibraryDesugaring(libs.desugar.jdk.libs)
     implementation(libs.androidx.profileinstaller)
